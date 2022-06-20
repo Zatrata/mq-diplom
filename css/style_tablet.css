@@ -3,7 +3,7 @@
 	/* HEADER */
 
 	.header {
-		background-image: url(/img/banner-bg-tablet.jpg);
+		background-image: url("../img/banner-bg-tablet.jpg");
 		width: 100%;
 	}
 	.header__conteiner {
