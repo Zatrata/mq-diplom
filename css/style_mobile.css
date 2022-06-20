@@ -3,7 +3,7 @@
 	/* HEADER */
 
 	.header {
-		background-image: url(/img/banner-mobile.jpg);
+		background-image: url("../img/banner-mobile.jpg");
 		height: 640px;
 		width: 100%;
 	}
