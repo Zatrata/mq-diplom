@@ -6,22 +6,10 @@
 }
 @font-face {
 	font-family: "OpenSans";
-	src: url(/fonts/OpenSans-Regular.woff),
-	url(/fonts/OpenSans-Bold.woff);
+	src: url("../fonts/OpenSans-Regular.woff"),
+	url("../fonts/OpenSans-Bold.woff");
 	font-style: normal;
 }
-/* @font-face {
-	font-family: "OpenSans-Regular";
-	src: url(/fonts/OpenSans-Regular.woff);
-	font-style: normal;
-}
-@font-face {
-	font-family: "OpenSans-Bold";
-	src: url(/fonts/OpenSans-Bold.woff);
-	font-weight: bold;
-	font-style: normal;
-} */
-
 body {
 	margin: 0;
 	padding: 0;
@@ -36,7 +24,7 @@ body {
 .header {
 	width: 100%;
 	padding-top: 28px;
-	background-image: url(/img/banner-bg.jpg);
+	background-image: url("../img/banner-bg.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -178,16 +166,16 @@ a, .search__btn, .search__btn:hover, .mailing__btn, .mailing__btn:hover {
 	z-index: 1;
 }
 .post1 {
-	background-image: url(/img/trend1.jpg);
+	background-image: url("../img/trend1.jpg");
 }
 .post2 {
-	background-image: url(/img/trend2.jpg);
+	background-image: url("../img/trend2.jpg");
 }
 .post3 {
-	background-image: url(/img/trend3.jpg);
+	background-image: url("../img/trend3.jpg");
 }
 .post4 {
-	background-image: url(/img/trend4.jpg);
+	background-image: url("../img/trend4.jpg");
 	margin-right: 0;
 }
 .trends__content {
@@ -408,7 +396,7 @@ p {
 	height: 48px;
 	background-color: #b59f5b;
 	border: none;
-	background-image: url(/svg/search.svg);
+	background-image: url("../svg/search.svg");
 	background-repeat: no-repeat;
 	background-size: 18px;
 	background-position: center center;
@@ -692,19 +680,19 @@ background-color: #323232;
 	background-position: center center;
 }
 .social-icon__twitter {
-	background-image: url(/svg/004-twitter.svg);
+	background-image: url("../svg/004-twitter.svg");
 }
 .social-icon__pinterest {
-	background-image: url(/svg/001-pinterest.svg);
+	background-image: url("../svg/001-pinterest.svg");
 }
 .social-icon__facebook {
-	background-image: url(/svg/002-facebook-logo.svg);
+	background-image: url("../svg/002-facebook-logo.svg");
 }
 .social-icon__instagram {
-	background-image: url(/svg/005-instagram.svg);
+	background-image: url("../svg/005-instagram.svg");
 }
 .social-icon__tumblr {
-	background-image: url(/svg/003-tumblr.svg);
+	background-image: url("../svg/003-tumblr.svg");
 }
 .copyright {
 	font-family: "OpenSans";
@@ -769,7 +757,7 @@ background-color: #323232;
 	-moz-appearance: none;
 	height: 49px;
 	width: 330px;
-	background-image: url(/svg/form-arrows.svg);
+	background-image: url("../svg/form-arrows.svg");
 	background-repeat: no-repeat;
 	background-position: right 15px center;
 	background-size: 8px;
@@ -798,7 +786,7 @@ background-color: #323232;
 	width: 16px;
 	height: 16px;
 	display: inline-block;
-	background-image: url(/svg/form-empty-circle.svg);
+	background-image: url("../svg/form-empty-circle.svg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 16px;
@@ -808,7 +796,7 @@ background-color: #323232;
 }
 .popup__radio:checked + .radio__text::before {
 	display: inline-block;
-	background-image: url(/svg/form-circle.svg);
+	background-image: url("../svg/form-circle.svg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 16px;
@@ -852,7 +840,7 @@ background-color: #323232;
 	transition: .3s all ease;
 }
 .popup__close {
-	background-image: url(/svg/form-x.svg);
+	background-image: url("../svg/form-x.svg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 18px;
