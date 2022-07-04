@@ -142,18 +142,14 @@ a, .search__btn, .search__btn:hover, .mailing__btn, .mailing__btn:hover {
 }
 .trends__wrp {
 	display: flex;
+	gap: 4px;
 }
 .trends__post {
 	position: relative;
 	height: 318px;
 	width: 25%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
 }
-.post__garden, .post__cheese, .post__travel{
-	margin-right: 4px;
-}
+
 .trends__post::after {
 	content: "";
 	position: absolute;
@@ -165,18 +161,9 @@ a, .search__btn, .search__btn:hover, .mailing__btn, .mailing__btn:hover {
 	opacity: 0.6;
 	z-index: 1;
 }
-.post__garden {
-	background-image: url("../img/trend1.jpg");
-}
-.post__cheese {
-	background-image: url("../img/trend2.jpg");
-}
-.post__travel {
-	background-image: url("../img/trend3.jpg");
-}
-.post__health {
-	background-image: url("../img/trend4.jpg");
-	margin-right: 0;
+.trends__post-image {
+	width: 100%;
+	height: 318px;
 }
 .trends__content {
 	width: 90%;
@@ -439,7 +426,7 @@ p {
 	font-size: 14px;
 }
 .mailing__btn:hover {
-background-color: #323232;
+	background-color: #323232;
 	transition: .3s all ease;
 }
 
@@ -720,6 +707,9 @@ background-color: #323232;
 	z-index: 2;
 	box-sizing: border-box;
 	padding-top: 1vh;
+	margin-right: auto;
+	margin-left: auto;
+
 	visibility: hidden;
 }
 .popup__container {
@@ -756,7 +746,7 @@ background-color: #323232;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	height: 49px;
-	width: 330px;
+	width: 100%;
 	background-image: url("../svg/form-arrows.svg");
 	background-repeat: no-repeat;
 	background-position: right 15px center;
@@ -810,7 +800,7 @@ background-color: #323232;
 }
 .popup__wishes-field {
 	padding: 20px 20px;
-	width: 330px;
+	width: 100%;
 	height: 130px;
 	resize: none;
 	border: none;
@@ -823,7 +813,7 @@ background-color: #323232;
 	outline: 1px solid #b59f5b;
 }
 .popup__btn {
-	width: 330px;
+	width: 100%;
 	height: 47px;
 	background-color: #b59f5b;
 	border: none;
@@ -905,21 +895,12 @@ background-color: #323232;
 
 	.trends__wrp {
 		flex-wrap: wrap;
-	
+		gap: 7px;
 	}
 	.trends__post {
 		width: calc(50% - 3.5px);
 	}
-	.post__garden, .post__cheese {
-		margin-bottom: 7px;
-	}
-	.post__cheese, .post__health {
-		margin-right: 0;
-	}
-	.post__garden, .post__travel {
-		margin-right: 7px;
-		
-	}
+	
 
 	/* CONTENT */
 
@@ -1023,6 +1004,7 @@ background-color: #323232;
 		display: none;
 	}
 
+
 	/* BURGER */
 
 	.burger {
@@ -1062,10 +1044,10 @@ background-color: #323232;
 
 	.trends__wrp {
 		flex-wrap: wrap;
+		gap: 3px;
 	}
 	.trends__post {
 		width: 100%;
-		margin-bottom: 3px;
 		margin-right: 0;
 	}
 	.trends__name {
